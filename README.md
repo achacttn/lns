@@ -1,3 +1,13 @@
+## Notes
+
+Color scheme:
+
+C8C2AE
+8AB9B5
+34E4EA
+0EB1D2
+2B4141
+
 ### `npm start`
 
 ### `npm test`

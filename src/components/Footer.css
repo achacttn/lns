@@ -1,0 +1,9 @@
+.Footer-main {
+    /* background-color: #F5F5F5; */
+    background-color: seashell;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
