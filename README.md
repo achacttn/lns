@@ -1,3 +1,15 @@
+## Website content
+
+Home
+
+About
+
+Products
+    - Advantages
+    - 
+
+Contact
+
 ## Notes
 
 Color scheme:

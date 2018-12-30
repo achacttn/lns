@@ -1,0 +1,10 @@
+.About-main {
+    min-height: 100vh;
+}
+
+.AboutBannerImageContainer {
+    height: 250px;
+    width: 900px;
+    background-color: green;
+    margin: 0 auto;
+}
