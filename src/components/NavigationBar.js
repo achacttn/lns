@@ -11,8 +11,9 @@ class NavigationBar extends React.Component {
                     <li className="NavigationListElement NavigationListElement1"><NavLink to="/">Home</NavLink></li>
                     <li className="NavigationListElement NavigationListElement2"><NavLink to="/about">About L&amp;S</NavLink></li>
                     <li className="NavigationListElement NavigationListElement3"><NavLink to="/products">Products</NavLink></li>
-                    <li className="NavigationListElement NavigationListElement4"><NavLink to="/Tech">Technology</NavLink></li>
-                    <li className="NavigationListElement NavigationListElement5"><NavLink to="/contact">Contact</NavLink></li>
+                    <li className="NavigationListElement NavigationListElement4"><NavLink to="/tech">Technology</NavLink></li>
+                    <li className="NavigationListElement NavigationListElement5"><NavLink to="/compare">Compare</NavLink></li>
+                    <li className="NavigationListElement NavigationListElement6"><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
         )

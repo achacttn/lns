@@ -2,7 +2,7 @@
   /* text-align: center; */
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 62px auto 250px
+  grid-template-rows: 48px auto 150px
 }
 
 /* @keyframes App-logo-spin {

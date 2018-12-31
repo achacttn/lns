@@ -1,5 +1,5 @@
 .NavigationBar-main {
-    background-color: antiquewhite;
+    background-color: rgb(15, 83, 80);
     border: 1px solid black;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -45,4 +45,8 @@
 
 .NavigationListElement5 {
     order: 5;
+}
+
+.NavigationListElement6 {
+    order: 6;
 }

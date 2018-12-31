@@ -13,11 +13,16 @@
 .ProductsGrid {
     background-color: rgba(0,0,200,0.5);
     display: grid;
-    height: 100vh;
+    height: 150vh;
     width: 1000px;
     margin: 0 auto;
     grid-template-columns: auto;
     grid-template-rows: 50px 1fr;
+}
+
+.ProductsGrid-ButtonContainer {
+    display: flex;
+    /* justify-content: space-evenly; */
 }
 
 .ProductsButton {
@@ -25,7 +30,12 @@
     border: none;
     outline: none;
     cursor: pointer;
+    flex-grow: 1;
 }
 .ProductsButton:hover {
     background-color: rgba(200,0,0,0.8);
+}
+
+.ProductsSquare {
+    background-color: red;
 }

@@ -5,7 +5,11 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="Footer-main">
-                Footer Component Root
+                <div className="FooterSitemap">Sitemap</div>
+                <div className="FooterLegal">
+                    <p className="FooterText">Copyright or patent information</p>
+                    <p className="FooterText">Cookie and Privacy Policy</p>
+                </div>
             </div>
         )
     }
