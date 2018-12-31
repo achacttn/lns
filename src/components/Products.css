@@ -1,5 +1,10 @@
 .Products-main {
     min-height: 100vh;
+    background-color: darkgreen;
+}
+
+.ProductsTitle {
+    margin: 0px 0px 0px 0px;
 }
 
 .ProductsImageContainer {

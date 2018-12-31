@@ -1,16 +1,101 @@
+h3 {
+    margin: 0px 0px 0px 0px;
+}
+
 .HomeBanner {
-    height: 250px;
-    background-color: #061a40;
-    background-image: -webkit-linear-gradient(65deg, #006daa 50%, #1d1d1d 50%);
-    /* background: rgb(138,185,181); */
-    /* background: -moz-linear-gradient(left, rgba(138,185,181,1) 0%, rgba(52,228,234,1) 33%, rgba(14,177,210,1) 67%, rgba(43,65,65,1) 100%);
-    background: -webkit-linear-gradient(left, rgba(138,185,181,1) 0%,rgba(52,228,234,1) 33%,rgba(14,177,210,1) 67%,rgba(43,65,65,1) 100%);
-    background: linear-gradient(to right, rgba(138,185,181,1) 0%,rgba(52,228,234,1) 33%,rgba(14,177,210,1) 67%,rgba(43,65,65,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ab9b5', endColorstr='#2b4141',GradientType=1 ); */
-    border: 1px solid black;
+    height: 50vw;
+    background-color: yellow;
+    background-image: url('../assets/gen/lit-bridge.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .HomeBannerTitle {
+    margin: 0px 0px 0px 0px;
     text-align: center;
     color: #b9b9b9;
+}
+
+.HomeGridContainer {
+    background: linear-gradient(#3f87a6, #9198e5);
+    height: 150vh;
+}
+
+.HomeGrid {
+    height: 150vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.HomeSection1.HomeSectionLeft {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.HomeSection1.HomeSectionRight {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.HomeSection2.HomeSectionLeft {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.HomeSection2.HomeSectionRight {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.HomeSection3.HomeSectionLeft {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.HomeSection3.HomeSectionRight {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.HomeSection4.HomeSectionLeft {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.HomeSection4.HomeSectionRight {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.HomeSection5.HomeSectionLeft {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.HomeSection5.HomeSectionRight {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
