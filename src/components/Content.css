@@ -1,7 +1,5 @@
 .Content-main {
-    /* background-color: rgb(15, 83, 80); */
-    background-color: orange;
-    /* border: 1px solid black; */
+    background-color: #e5e5e5;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;

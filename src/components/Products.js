@@ -24,7 +24,6 @@ class Products extends React.Component {
     }
 
     render() {
-
         function productTabRenderer(index){
             switch (index) {
                 case 0:
