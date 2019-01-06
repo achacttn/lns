@@ -5,23 +5,29 @@ h3 {
 .HomeBanner {
     margin: 0px 0px 100px 0px;
     height: 50vw;
-    background-color: #a8a8a8;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
     background-image: url('../assets/gen/lit-bridge.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
 
 .HomeBannerTitle {
     margin: 0px 0px 0px 0px;
-    padding: 50px 0px 0px 50px;
+    padding: 100px 0px 0px 50px;
+    /* padding: 0px 50px; */
+    /* position: absolute; */
+    /* bottom: 50px; */
     text-align: left;
     /* color: #b9b9b9; */
     /* color: hsl(0, 50%, 50%); */
     color: white;
-    font-size: 60px;
+    font-size: 48px;
     opacity: 1;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .HomeGrid {
@@ -29,11 +35,11 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto auto;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
 }
 
 .HomeGridRow {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: linear-gradient(#91a8e5, #9ab7d8);
     display: flex;
     justify-content: space-around;
@@ -45,6 +51,7 @@ h3 {
 .HomeGridRow:hover {
     transition: opacity 0.1s ease-out 0s;
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .HomeSection {

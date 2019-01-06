@@ -1,16 +1,23 @@
-## Website content
+## Todos
 
-Home
+### Global
 
-About
+### Home page
 
-Products
-    - Advantages
-    - 
+- Responsiveness
+- Copy text
 
-Contact
+### Navigation bar
 
-## Notes
+- Responsiveness
+- Flex on entire component
+
+### About
+
+- Responsiveness
+- Copy text
+
+## Color scheme
 
 Color scheme:
 
