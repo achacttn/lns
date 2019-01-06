@@ -10,159 +10,109 @@ h3 {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    opacity: 0.75;
 }
 
 .HomeBannerTitle {
     margin: 0px 0px 0px 0px;
     padding: 50px 0px 0px 50px;
     text-align: left;
-    color: #b9b9b9;
+    /* color: #b9b9b9; */
+    /* color: hsl(0, 50%, 50%); */
+    color: white;
     font-size: 60px;
-}
-
-.HomeGridContainer {
-    /* background: linear-gradient(#9198e5, #3f87a6); */
+    opacity: 1;
 }
 
 .HomeGrid {
-    min-height: 200vh;
+    min-height: 300vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto auto;
     grid-row-gap: 30px;
 }
 
-.HomeSection {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.HomeGridRow {
+    border: 1px solid black;
     background: linear-gradient(#91a8e5, #9ab7d8);
+    display: flex;
+    justify-content: space-around;
     opacity: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
-.HomeSection1 {
-    opacity: 1;
-    transition: opacity 0.2s ease-out 0s;
-}
-
-.HomeSection1:hover {
+.HomeGridRow:hover {
+    transition: opacity 0.1s ease-out 0s;
     opacity: 0.6;
-    /* background: red; */
 }
 
-.HomeSectionContent {
-    padding: 20px 30px 20px 30px;
+.HomeSection {
+    flex-basis: 50%;
+    padding: 20px 30px;
 }
 
-.HomeSection1.HomeSectionLeft {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection1.HomeSectionRight {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.HomeSection2.HomeSectionLeft {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection2.HomeSectionRight {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.HomeSection3.HomeSectionLeft {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection3.HomeSectionRight {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.HomeSection4.HomeSectionLeft {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection4.HomeSectionRight {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.HomeSection5.HomeSectionLeft {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection5.HomeSectionRight {
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.HomeSection6.HomeSectionLeft {
-    grid-row-start: 6;
-    grid-row-end: 7;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.HomeSection6.HomeSectionRight {
-    grid-row-start: 6;
-    grid-row-end: 7;
-    grid-column-start: 2;
-    grid-column-end: 3;
+.HomeSectionLeft {
+    order: 1;
 }
 
 .HomeSectionRight {
+    order: 2;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.HomeSection1.HomeSectionRight {
+.HomeGridRow1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.HomeGridRow1 .HomeSectionRight {
     background-image: url('../assets/gen/circ.jpg');
 }
 
-.HomeSection2.HomeSectionRight {
+.HomeGridRow2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.HomeGridRow2 .HomeSectionRight {
     background-image: url('../assets/gen/evening-tunnel.jpg');
 }
 
-.HomeSection3.HomeSectionRight {
+.HomeGridRow3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.HomeGridRow3 .HomeSectionRight {
     background-image: url('../assets/gen/streetlight-1388418_1280.jpg');
 }
 
-.HomeSection4.HomeSectionRight {
+.HomeGridRow4 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.HomeGridRow4 .HomeSectionRight {
     background-image: url('../assets/gen/architecture-blur-building-257636.jpg');
 }
 
-.HomeSection5.HomeSectionRight {
+.HomeGridRow5 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.HomeGridRow5 .HomeSectionRight {
     background-image: url('../assets/gen/airport-architecture-building-1536434.jpg');
 }
 
-.HomeSection6.HomeSectionRight {
+.HomeGridRow6 {
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.HomeGridRow6 .HomeSectionRight {
     background-image: url('../assets/gen/abigail-keenan-17651-unsplash.jpg');
 }
