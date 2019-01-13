@@ -1,33 +1,54 @@
 .Products-main {
     min-height: 100vh;
-    /* background-color: darkgreen; */
+    background: linear-gradient(#91a8e5, #9ab7d8);
+}
+
+.ProductsTitleContainer {
+    height: 500px;
+    background: url('../assets/gen/hkskyline.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .ProductsTitle {
     margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    text-shadow: -0.6px 0 white, 0 0.6px white, 0.6px 0 white, 0 -0.6px white;
 }
 
 .ProductsImageContainer {
-    height: 250px;
+    height: 100px;
     width: 1000px;
-    background-color: rgba(200,0,0,0.5);
+    background-color: darkolivegreen;
+    /* background: url('../assets/gen/hkskyline.jpg'); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
     text-align: center;
     margin: 0 auto;
+}
+
+.SpecificProductTitle {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ProductsGrid {
     background-color: rgba(0,0,200,0.5);
     display: grid;
-    height: 150vh;
+    height: 1400px;
     width: 1000px;
     margin: 0 auto;
     grid-template-columns: auto;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 50px 50px 1fr;
 }
 
 .ProductsGrid-ButtonContainer {
     display: flex;
-    /* justify-content: space-evenly; */
 }
 
 .ProductsButton {
@@ -37,10 +58,119 @@
     cursor: pointer;
     flex-grow: 1;
 }
+
 .ProductsButton:hover {
     background-color: rgba(200,0,0,0.8);
+    transition: 0.5s;
+}
+
+.ProductsSubmenu {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+}
+
+.SubmenuButton {
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.SubmenuButton:hover {
+    background-color: rgba(200,0,0,0.8);
+    transition: 0.5s;    
+}
+
+.ProductsSquareContainer {
+    width: inherit;
 }
 
 .ProductsSquare {
+    position: absolute;
     background-color: red;
+    height: 1300px;
+    width: inherit;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Menu 0 */
+
+.ItemTab0.ItemSubTab0 {
+    background: url('../assets/prod/street/1.0fullpage.jpg');
+}
+
+.ItemTab0.ItemSubTab1 {
+    background: url('../assets/prod/street/1.5fullpage.jpg');
+}
+
+.ItemTab0.ItemSubTab2 {
+    background: url('../assets/prod/street/2.0fullpage.jpg');
+}
+
+/* Menu 1 */
+
+.ItemTab1.ItemSubTab0 {
+    background: url('../assets/prod/highbay/1.0.jpg');
+}
+
+.ItemTab1.ItemSubTab1 {
+    background: url('../assets/prod/highbay/2.0.jpg');
+}
+
+.ItemTab1.ItemSubTab2 {
+    background: url('../assets/prod/highbay/2.0canopy.jpg');
+}
+
+.ItemTab1.ItemSubTab3 {
+    background: url('../assets/prod/highbay/2.5.jpg');
+}
+
+.ItemTab1.ItemSubTab4 {
+    background: url('../assets/prod/highbay/HRseries.jpg');
+}
+
+/* Menu 2 */
+
+.ItemTab2.ItemSubTab0 {
+    background: url('../assets/prod/tunnel/1.5long.jpg');
+}
+
+.ItemTab2.ItemSubTab1 {
+    background: url('../assets/prod/tunnel/1.5short.jpg');
+}
+
+/* Menu 3 */
+
+.ItemTab3.ItemSubTab0 {
+    background: url('../assets/prod/parking/2.0lot.jpg');
+}
+
+.ItemTab3.ItemSubTab1 {
+    background: url('../assets/prod/parking/2.0garage.jpg');
+}
+
+/* Menu 4 */
+
+.ItemTab4.ItemSubTab0 {
+    background: url('../assets/prod/sports/ac.jpg');
+
+}
+
+.ItemTab4.ItemSubTab1 {
+    background: url('../assets/prod/sports/dc.jpg');
+
+}
+
+.ItemTab4.ItemSubTab2 {
+    background: url('../assets/prod/sports/flood.jpg');
+}
+
+/* Menu 5 */
+
+.ItemTab5.ItemSubTab0 {
+    background: url('../assets/prod/smart/iot.jpg');
 }
