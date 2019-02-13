@@ -1,7 +1,43 @@
-
 .NavigationBar-main {
     margin: 0 auto;
-    max-width: 1440px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 180px;
+
+    max-width: 800px;
+}
+
+.leftContainer {
+    order: 1;
+}
+
+.companyLogoImage {
+    width: 120px;
+    height: 120px;
+    /* background-color: red; */
+}
+
+.NavigationHeader {
+    font-size: 20px;
+}
+
+.NavigationListContainer {
+    order: 2;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.NavigationListElement1 {
+
+}
+
+/* .NavigationBar-main {
+    margin: 0 auto;
+    max-width: 800px;
     width: 100%;
     background-color: #e5e5e5;
     grid-column-start: 1;
@@ -53,4 +89,4 @@
 
 .NavigationListElement6 {
     order: 6;
-}
+} */

@@ -1,5 +1,6 @@
 .Content-main {
-    /* background-color: rgba(0,0,0,1); */
+    position: relative;
+    top: 132px;
     background: white;
     grid-column-start: 1;
     grid-column-end: 2;

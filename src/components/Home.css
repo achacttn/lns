@@ -10,8 +10,7 @@ h3 {
     margin: 0px 0px 60px 0px;
     max-height: 50vh;
     height: 30vh;
-    background-color: red;
-    /* background-image: url('/src/assets/gen/background-bay.jpg'); */
+    background-color: rgb(17, 12, 90);
 }
 
 .Home-image {
