@@ -1,33 +1,39 @@
+.Home-main {
+    background-color: #c2c2c8;
+}
+
 h3 {
     margin: 0px 0px 0px 0px;
 }
 
 .HomeBanner {
-    margin: 0px 0px 100px 0px;
-    height: 50vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #000;
-    background-image: url('../assets/gen/lit-bridge.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /* opacity: 0.75; */
+    margin: 0px 0px 60px 0px;
+    max-height: 50vh;
+    height: 30vh;
+    background-color: red;
+    /* background-image: url('/src/assets/gen/background-bay.jpg'); */
+}
+
+.Home-image {
+    width: 100%;
 }
 
 .HomeBannerTitle {
     margin: 0px 0px 0px 0px;
-    padding: 100px 0px 0px 50px;
-    /* padding: 0px 50px; */
-    /* position: absolute; */
-    /* bottom: 50px; */
+    padding: 100px 0px 0px 20px;
     text-align: left;
-    /* color: #b9b9b9; */
-    /* color: hsl(0, 50%, 50%); */
     color: white;
     font-size: 48px;
     opacity: 1;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.brief1, .brief2 {
+    min-height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px 0px 30px 0px;
+    background-color: #d8d8d5;
 }
 
 .HomeGrid {
@@ -39,7 +45,6 @@ h3 {
 }
 
 .HomeGridRow {
-    /* border: 1px solid black; */
     background: linear-gradient(#91a8e5, #9ab7d8);
     display: flex;
     justify-content: space-around;

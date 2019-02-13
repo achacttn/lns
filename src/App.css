@@ -3,17 +3,10 @@
 }
 
 .App {
-  /* text-align: center; */
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 48px auto 150px
+  grid-template-rows: 48px auto 150px;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

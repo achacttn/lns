@@ -1,4 +1,8 @@
+
 .NavigationBar-main {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
     background-color: #e5e5e5;
     grid-column-start: 1;
     grid-column-end: 2;
