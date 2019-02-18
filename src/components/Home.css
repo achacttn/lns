@@ -8,8 +8,10 @@ h3 {
 
 .HomeBanner {
     margin: 0px 0px 60px 0px;
-    max-height: 50vh;
-    height: 30vh;
+    max-height: 600px;
+    height: 450px;
+    width: auto;
+    /* height: 30vh; */
     background-color: rgb(17, 12, 90);
 }
 

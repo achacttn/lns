@@ -3,90 +3,83 @@
     background-color: #e5e5e5;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    height: 180px;
-
-    max-width: 800px;
+    min-width: 400px;
+    height: auto;
 }
 
-.leftContainer {
-    order: 1;
-}
-
-.companyLogoImage {
+.imgContainer {
+    margin: 20px;
     width: 120px;
     height: 120px;
-    /* background-color: red; */
-}
-
-.NavigationHeader {
-    font-size: 20px;
+    background-color: blue;
 }
 
 .NavigationListContainer {
     order: 2;
+    list-style: none;
     display: flex;
+    flex-flow: row nowrap;
     width: auto;
     height: auto;
 }
 
-.NavigationListElement1 {
-
+.NavigationLink {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
 }
 
-/* .NavigationBar-main {
-    margin: 0 auto;
-    max-width: 800px;
-    width: 100%;
-    background-color: #e5e5e5;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    position: sticky;
+.NavigationLink:hover {
+    color: #77b0be;
+    transition: color 0.4s ease-in-out;
 }
 
-.NavigationHeader {
-    margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 40px;
-    display: inline;
-    float: left;
+.NavigationLink {
+    text-decoration: none;
+    color: black;
 }
 
-.NavigationListContainer {
-    float: right;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 40px 0px 0px;
+.NavigationLink {
+    color: black;
 }
 
-.NavigationListElement {
-    padding: 15px 15px 15px 15px;
+.NavigationLink {
+    color: black;
 }
 
-.NavigationListElement1 {
-    order: 1;
+
+
+@media (max-width: 1200px) {
+    .imgContainer {
+        margin: 18px;
+        width: 100px;
+        height: 100px;
+    }
 }
 
-.NavigationListElement2 {
-    order: 2;
+@media (max-width: 968px) {
+    .imgContainer {
+        margin: 16px;
+        width: 80px;
+        height: 80px;
+    }
 }
 
-.NavigationListElement3 {
-    order: 3;
+@media (max-width: 800px) {
+    .imgContainer {
+        margin: 14px;
+        width: 60px;
+        height: 60px;
+    }
 }
 
-.NavigationListElement4 {
-    order: 4;
+@media (max-width: 600px) {
+    .imgContainer {
+        margin: 12px;
+        width: 40px;
+        height: 40px;
+    }
 }
-
-.NavigationListElement5 {
-    order: 5;
-}
-
-.NavigationListElement6 {
-    order: 6;
-} */

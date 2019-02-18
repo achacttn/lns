@@ -1,6 +1,4 @@
 .Content-main {
-    position: relative;
-    top: 132px;
     background: white;
     grid-column-start: 1;
     grid-column-end: 2;
