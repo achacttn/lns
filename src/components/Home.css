@@ -1,5 +1,6 @@
 .Home-main {
     background-color: #c2c2c8;
+    /* background-color: #888c8d; */
 }
 
 h3 {
@@ -7,11 +8,11 @@ h3 {
 }
 
 .HomeBanner {
-    margin: 0px 0px 60px 0px;
-    max-height: 600px;
-    height: 450px;
-    width: auto;
-    /* height: 30vh; */
+    margin: 0px 0px 0px 0px;
+    max-height: 800px;
+    height: 62.5vw;
+    max-width: 1440px;
+    width: 100vw;
     background-color: rgb(17, 12, 90);
 }
 
@@ -21,24 +22,80 @@ h3 {
 
 .HomeBannerTitle {
     margin: 0px 0px 0px 0px;
-    padding: 100px 0px 0px 20px;
+    padding: 110px 0px 0px 110px;
     text-align: left;
     color: white;
-    font-size: 48px;
+    font-size: 64px;
     opacity: 1;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.brief1, .brief2 {
-    min-height: 100px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 0px 0px 30px 0px;
-    background-color: #d8d8d5;
+.tripleBanner {
+    margin: 60px auto;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    /* height: 480px; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
 }
 
+.banner1, .banner2, .banner3 {
+    background-color: #d8d8d5;
+    max-width: 380px;
+    width: 34%;
+    height: 600px;
+    border: 1px solid black;
+    padding: 36px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-img-container > img {
+    width: 240px;
+    height: 240px;
+    background-color: green;
+    display: block;
+}
+
+.banner-title {
+    font-size: 36px;
+}
+
+.banner-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* .brief1, .brief2 {
+    max-width: 950px;
+    padding: 60px;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.brief1 {
+    margin: 75px auto 60px;
+}
+
+.brief2 {
+    margin: 60px auto 75px;
+}
+
+.brief1 > h3, .brief2 > h3 {
+    font-size: 30px;
+} */
+
 .HomeGrid {
-    min-height: 300vh;
+    max-width: 950px;
+    margin: 50px auto;
+    max-height: 400vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto auto;
@@ -67,6 +124,8 @@ h3 {
 
 .HomeSectionLeft {
     order: 1;
+    padding: 50px;
+    font-size: 20px;
 }
 
 .HomeSectionRight {
