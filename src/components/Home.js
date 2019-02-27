@@ -1,5 +1,7 @@
 import React from 'react';
-import gearSvg from '../assets/gen/gears.svg';
+import settingsSvg from '../assets/gen/settings.svg';
+import flashSvg from '../assets/gen/flash.svg';
+import cloudComputingSvg from '../assets/gen/cloud-computing.svg';
 import './Home.css';
 
 class Home extends React.Component {
@@ -15,21 +17,21 @@ class Home extends React.Component {
                     <div className="tripleBanner">
                         <div className="banner banner1">
                             <div className="banner-img-container banner1-img-container">
-                                <img alt="Company Logo" height="240px" width="240px"/>
+                                <img src={flashSvg} alt="Company Logo" height="240px" width="240px"/>
                             </div>
                             <h2 className="banner-title banner1-title">L&amp;S LED</h2>
                             <p className="banner-text banner1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatum optio aspernatur impedit. Esse at sunt perspiciatis, maxime ipsa soluta molestias laborum eveniet magnam a ipsum unde error placeat. Dolore!</p>
                         </div>
                         <div className="banner banner2">
                             <div className="banner-img-container banner2-img-container">
-                                <img src={gearSvg} alt="Gears" height="240px" width="240px"/>
+                                <img src={settingsSvg} alt="Gears" height="240px" width="240px"/>
                             </div>
                             <h2 className="banner-title banner2-title">AC LED</h2>
                             <p className="banner-text banner2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa, perferendis unde repellat eos eligendi quos quidem ut deleniti repellendus quas iure illum aliquam dignissimos itaque porro ipsam dolores laboriosam.</p>
                         </div>
                         <div className="banner banner3">
                             <div className="banner-img-container banner3-img-container">
-                                <img alt="IoT Logo" height="240px" width="240px"/>
+                                <img src={cloudComputingSvg} alt="IoT Logo" height="240px" width="240px"/>
                             </div>
                             <h2 className="banner-title banner3-title">IoT</h2>
                             <p className="banner-text banner3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus ullam distinctio deserunt hic, blanditiis ipsum facere aspernatur corporis dolores veritatis, cum debitis. Similique fugit eligendi modi harum cumque tempore?</p>
