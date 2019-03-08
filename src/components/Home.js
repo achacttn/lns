@@ -2,6 +2,7 @@ import React from 'react';
 import settingsSvg from '../assets/gen/settings.svg';
 import flashSvg from '../assets/gen/flash.svg';
 import cloudComputingSvg from '../assets/gen/cloud-computing.svg';
+import homeBanner from '../assets/gen/lit-bridge.jpg';
 import './Home.css';
 
 class Home extends React.Component {
@@ -10,11 +11,11 @@ class Home extends React.Component {
 
             <div className="Container">
                 <div className="Home-main">
-                    {/* <img src="/static/media/lit-bridge.d17851d5.jpg" alt="Background" className="Home-image"/> */}
                     <div className="HomeBanner">
+                        <img className="BannerImage" src={homeBanner} alt="Home Banner"/>
                         <h1 className="HomeBannerTitle">L&amp;S LED Australia NZ Pty Ltd</h1>
                     </div>
-                    <div className="tripleBanner">
+                    {/* <div className="tripleBanner">
                         <div className="banner banner1">
                             <div className="banner-img-container banner1-img-container">
                                 <img src={flashSvg} alt="Company Logo" height="240px" width="240px"/>
@@ -27,7 +28,7 @@ class Home extends React.Component {
                                 <img src={settingsSvg} alt="Gears" height="240px" width="240px"/>
                             </div>
                             <h2 className="banner-title banner2-title">AC LED</h2>
-                            <p className="banner-text banner2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa, perferendis unde repellat eos eligendi quos quidem ut deleniti repellendus quas iure illum aliquam dignissimos itaque porro ipsam dolores laboriosam.</p>
+                            <p className="banner-text banner2-text">Reliabl longer lifespan.<br/>Convenient installation and maintenance.<br/>60% more power efficient.<br/>Compact, lightweight, and flexible design.</p>
                         </div>
                         <div className="banner banner3">
                             <div className="banner-img-container banner3-img-container">
@@ -36,14 +37,6 @@ class Home extends React.Component {
                             <h2 className="banner-title banner3-title">IoT</h2>
                             <p className="banner-text banner3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus ullam distinctio deserunt hic, blanditiis ipsum facere aspernatur corporis dolores veritatis, cum debitis. Similique fugit eligendi modi harum cumque tempore?</p>
                         </div>
-                    </div>
-                    {/* <div className="brief1">
-                        <h3>Brief of AC LED</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod esse provident modi, itaque est officia sint? Distinctio, vel, illo consectetur rerum atque fuga earum quae quo maxime ex suscipit?</p>
-                    </div>
-                    <div className="brief2">
-                        <h3>Brief of IOT</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sapiente earum numquam cupiditate nam saepe eveniet aperiam praesentium reprehenderit. Enim molestiae alias quo deleniti maiores laboriosam suscipit voluptatem, iusto blanditiis?</p>
                     </div> */}
                     <div className="HomeGridContainer">
                         <div className="HomeGrid">
